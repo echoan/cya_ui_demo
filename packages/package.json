@@ -1,0 +1,21 @@
+{
+  "name": "cyaui",
+  "version": "1.0.0",
+  "description": "vue 组件开发尝试",
+  "main": "dist/cya_vue_ui.common.js",
+  "module": "dist/cya_vue_ui.esm.js",
+  "unpkg": "dist/cya_vue_ui.umd.js",
+  "scripts": {
+    "test": "test",
+    "build": "../node_modules/.bin/rollup -c"
+  },
+  "keywords": [
+    "vue",
+    "vue-component"
+  ],
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  },
+  "author": "yongan",
+  "license": "ISC"
+}
